@@ -1,0 +1,36 @@
+@import url(../css/style.css);
+
+
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/pexels-photo-257636.jpeg);
+    background-position: center center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.customize-container
+{
+    min-width:300px;
+    min-height: 400px;
+    max-width: 40%;
+    max-height: 50%;
+}
+
+
+.add
+{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: #05a081 !important;
+    transition: all ease-in 0.1s;
+    color: white !important;
+    border: 0;
+}
+.add:hover
+{
+    border: 0;
+    background-color: #059377 !important;
+}

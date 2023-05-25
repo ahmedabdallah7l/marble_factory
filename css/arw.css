@@ -1,0 +1,60 @@
+@import url(./style.css);
+
+
+    .add
+{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    background-color: #05a081 !important;
+    transition: all ease-in 0.1s;
+    color: white !important;
+    border: 0;
+}
+
+.add:hover
+{
+    border: 0;
+    background-color: #059377 !important;
+}
+
+.lightBoxContainer
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+
+}
+
+.lightBox
+{
+    width: 50%;
+   /* height: inherit; */
+    position: relative;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+/*  */
+
+.icon{
+
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.closeIcon
+{
+    color: black;
+    position: absolute;
+    top: 0px;
+
+    right: 0px;
+}
