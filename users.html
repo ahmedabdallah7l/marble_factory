@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body class="vh-100 d-flex align-items-center justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WoWo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./general.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./adduser.html">Add User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./users.html">User List</a>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./login.html">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container w-75 shadow-lg">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+                <h2 class="heading-section">User List</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-wrap">
+                    <table class="table table-responsive-xl">
+                        <thead>
+                            <tr class="text-center">
+                                <th>Index</th>
+                                <th>Email</th>
+                                <th>Username</th>
+                                <th>Role</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center" id="tableData">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn d-none text-center m-auto d-block add" value="submit" type="submit">Add</button>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/user.js"></script>
+</body>
+
+</html>
